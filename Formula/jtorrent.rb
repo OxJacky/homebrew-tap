@@ -4,21 +4,21 @@ class Jtorrent < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/OxJacky/jtorrent-cli/releases/download/v0.2.1/jtorrent_0.2.1_darwin_arm64.tar.gz"
-      sha256 "3994e6e05f4dc5efcf29821cea00e83e65798d637a8cc41cb1a4f8f529e54bd8"
+      url "https://github.com/OxJacky/jtorrent-cli/releases/download/v0.2.2/jtorrent_0.2.2_darwin_arm64.tar.gz"
+      sha256 "48965f12f03c4957e7b3374827dca2ae34cae5497e9472e71c07802b358a9bb5"
     else
-      url "https://github.com/OxJacky/jtorrent-cli/releases/download/v0.2.1/jtorrent_0.2.1_darwin_amd64.tar.gz"
-      sha256 "bba4cd73fa0e24130a26918ccbd1da511bd983b87484dd4ce0536a969a2b2d45"
+      url "https://github.com/OxJacky/jtorrent-cli/releases/download/v0.2.2/jtorrent_0.2.2_darwin_amd64.tar.gz"
+      sha256 "b531ff493c73ab33459f005966395d5c4bc5ee4ab5269b227cdab075add72505"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/OxJacky/jtorrent-cli/releases/download/v0.2.1/jtorrent_0.2.1_linux_arm64.tar.gz"
-      sha256 "2be911233f953a1c0822277820daf15ab8578ca69f6437762ba4f9f91a44111f"
+      url "https://github.com/OxJacky/jtorrent-cli/releases/download/v0.2.2/jtorrent_0.2.2_linux_arm64.tar.gz"
+      sha256 "930d0cb8be3d9c826e1b18eba5dfe9ffb450d6e8e37c33bbaa6dbfac16c9aa94"
     else
-      url "https://github.com/OxJacky/jtorrent-cli/releases/download/v0.2.1/jtorrent_0.2.1_linux_amd64.tar.gz"
-      sha256 "9a09be20280b32a13f6adf635c7965e6547ce702c210dd26066fe9ce8a717634"
+      url "https://github.com/OxJacky/jtorrent-cli/releases/download/v0.2.2/jtorrent_0.2.2_linux_amd64.tar.gz"
+      sha256 "0e69f69bdef507b4d98aadfeadb827b59406bd179147d4ead7f5ad38fd897f21"
     end
   end
 
